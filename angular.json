@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "Ang-project-VIII"
+  "defaultProject": "Ang-project-VIII",
+  "cli": {
+    "analytics": "aca01a70-ff6e-422d-bc26-b79e2d2a90b4"
+  }
 }

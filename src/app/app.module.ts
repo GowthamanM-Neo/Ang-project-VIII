@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NormalButtonComponent } from './normal-button/normal-button.component';
+import { ClickButtonComponent } from './click-button/click-button.component';
+import { ErrorButtonComponent } from './error-button/error-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NormalButtonComponent,
+    ClickButtonComponent,
+    ErrorButtonComponent
   ],
   imports: [
     BrowserModule,
